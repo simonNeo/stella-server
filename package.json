@@ -1,6 +1,6 @@
 {
   "name": "stella-server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "轻量网页服务器, html template and node server",
   "main": "src/index.js",
   "private": false,
