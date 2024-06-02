@@ -1,10 +1,6 @@
 
 function checkDatabaseConfig() {
   const config = require('../config');
-
-  if (!config.server?.db) {
-    throw new Error('未找到数据库配置，请检查config.server.db');
-  }
   const { host, dialect, database, username, password, port, timezone, logging } = config?.server?.db;
   let missing = '';
   switch (undefined) {
