@@ -11,13 +11,23 @@
   "keywords": [
     "stella",
     "php",
+    "thinkphp",
     "web server"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Simon<simon@sayto.top>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonNeo/stella-server"
+  },
+  "bugs": {
+    "url": "https://github.com/simonNeo/stella-server/issues",
+    "email": "simon@sayto.top"
+  },
+  "homepage": "https://github.com/simonNeo/stella-server",
   "dependencies": {
     "app-root-path": "^3.1.0",
     "connect-multiparty": "^2.2.0",
