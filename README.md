@@ -141,18 +141,18 @@ npm start
 
 ### 1. 配置文件说明
 
-｜字段｜默认值｜说明｜
-｜---｜---｜
-｜server.port｜8080|端口｜
-｜server.path.page｜`/pages`|页面文件存放的位置，页面结构和路由自动映射，例如路由`/landing/setting`会查找`/pages/landing/setting`下的`controller.js`和`view.html`文件｜
-｜server.path.static｜`/static`|静态资源文件存放的位置，例如`/static/css/style.css`可以通过`http://localhost:8080/css/style.css`访问｜
-｜server.db.enable｜false|是否启用数据库｜
-｜server.db.modelPath｜`/models`|数据库模型文件存放的位置，详情查看数据库配置说明章节｜
-｜server.db.host｜`localhost`|数据库地址｜
-｜server.db.port｜`3306`|数据库端口｜
-｜server.db.username｜|数据库用户名｜
-｜server.db.password｜|数据库密码｜
-｜server.db.database｜|数据库名｜
+| 字段 | 默认值 | 说明 |
+|---|---|---|
+| server.port | 8080 | 端口 |
+|server.path.page|`/pages`|页面文件存放的位置，页面结构和路由自动映射，例如路由`/landing/setting`会查找`/pages/landing/setting`下的`controller.js`和`view.html`文件|
+|server.path.static|`/static`|静态资源文件存放的位置，例如`/static/css/style.css`可以通过`http://localhost:8080/css/style.css`访问|
+|server.db.enable|false|是否启用数据库|
+|server.db.modelPath|`/models`|数据库模型文件存放的位置，详情查看数据库配置说明章节|
+|server.db.host|`localhost`|数据库地址|
+|server.db.port|`3306`|数据库端口|
+|server.db.username||数据库用户名|
+|server.db.password||数据库密码|
+|server.db.database||数据库名|
 
 ### 2. 页面文件说明
 页面文件和路由一一对应，例如路由`/landing/setting`会查找`/pages/landing/setting`下的`controller.js`和`view.html`文件
